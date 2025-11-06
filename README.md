@@ -3,14 +3,26 @@
 ## Starting the Frontend
 ```{text}
 cd frontend
-npm install // If it is the first time running the frontend
+```
+### If it is your first time running the frontend
+```{text}
+npm install
+```
+```{text}
 npm run dev
 ```
 
 ## Starting the Backend
 ```{text}
 cd backend
-python -m venv venv // If it is the first time creating a python virtual enviorment
+```
+### If you haven't created a python virtual envioment
+```{text}
+python -m venv venv
+```
+```{text}
 source venv/bin/activate
+```
+```{text}
 uvicorn main:app --reload
 ```
