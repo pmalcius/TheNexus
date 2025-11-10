@@ -12,7 +12,7 @@ function WelcomeScreen({ onEnter }: WelcomeScreenProps) {
         </h1>
         <button
           onClick={onEnter}
-          className="px-12 py-4 text-xl font-semibold text-[#ffffff] bg-[#0e639c] hover:bg-[#1177bb] rounded-md transition-colors duration-150 shadow-lg"
+          className="px-6 py-2 text-lg font-medium text-[#d4d4d4] bg-[#3e3e42] hover:bg-[#da70d6] rounded-md transition-colors duration-150 shadow-md"
         >
           Enter
         </button>
